@@ -2,4 +2,6 @@ pm2 glossary:
   pm2 start app.js --> This starts the application. it will run the application in the backgound of the server. 
   pm2 stop app_name_or_id --> This stops a running application. 
   pm2 restart app_name_or_id -->  This restarts am Application.
-  pm2 list --> this will restart a 
+  pm2 list --> this will create a list of the curently working applications.
+  pm2 info app.js --> this will show info about an application.
+  
