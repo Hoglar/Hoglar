@@ -1,0 +1,20 @@
+You can run node.js applications from the command line.
+You do this by first typing "node" then you type the node.js file you want to run.
+if you use ubuntu, you need to use "nodejs" instead of "node".
+
+To keep my application running on the server all the time i use something called PM2, which is a project manager.
+
+by typing pm2 start appname it will run in the background on my server. to run an application in background
+is called to deamonize application. 
+
+
+localserver and local host in node.js.
+  node.js listen?
+  
+  localhost "this computer"
+  
+  HTTP request?
+  
+  What is an HTTP request?
+    
+  What is a Port?
