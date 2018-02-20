@@ -1,0 +1,9 @@
+To renew server every third month, i must first run :
+to stop nginx:
+sudo systemctl stop nginx
+
+to renew certificate:
+sudo letsencrypt renew
+
+then start server again:
+sudo systemctl start nginx
